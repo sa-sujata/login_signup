@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     child: Text('welcome\nhome',style: TextStyle(color:Colors.white,fontSize:33 ),),
     ),
       Container(
-        padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.5,right: 35,left:35),
+        padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.7,right: 35,left:35),
         child: Column(children: [
           TextField(decoration: InputDecoration(hintText: 'Email',border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),),
           TextField()
